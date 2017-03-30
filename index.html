@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scholar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+  <link rel="stylesheet" style="text/css" href="css/main.css">
+</head>
+<body>
+  <!-- Main Wrapper -->
+  <div class="mainwrapper">
+    <!-- Navigation Menu -->
+    <div id="mymenu" class="container">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a id="logo" href="index.html" class="navbar-brand">SCHOLAR</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="info.html"><i class="fa fa-info-circle"></i> How it Works</a></li>
+              <li><a href="login_create.html"><i class="fa fa-pencil-square-o"></i> Register</a></li>
+              <li><a href="login_create.html"><i class="fa fa-sign-in"></i> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Search Space -->
+    <div id="backdrop" class="container-fluid">
+      <h2 id="header">Scholar</h2>
+      <form id="searchbox">
+        <input type="text" placeholder="Search scholarships">
+        <button class="btn btn-default" type="submit">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- Results -->
+  <table id="homeresults" class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Scholarship Name</th>
+        <th>Amount</th>
+        <th>Add or Set Active</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Elevate Scholarship</td>
+        <td>$500</td>
+        <td>
+          <button class="btn btn-default" type="submit">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+          <button class="btn btn-default" type="submit">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>AFDO Scholarship</td>
+        <td>$1500</td>
+        <td>
+          <button class="btn btn-default" type="submit">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+          <button class="btn btn-default" type="submit">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>Bobcat Award</td>
+        <td>$1000</td>
+        <td>
+          <button class="btn btn-default" type="submit">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+          <button class="btn btn-default" type="submit">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div id="contact">
+          <h1 id="contact">Contact Us</h1>
+          <div class="container">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            scbuddysupport@gmail.com
+          </div>
+          <div class="container">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            786-123-4567
+          </div>
+        </div>
+      </div>
+      <p class="pull-right"><a href="#">Top of page</a></p>
+      <p>&copy; 2017 Scholar</p>
+    </div>
+  </footer>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
